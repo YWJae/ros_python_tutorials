@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy                          		  # ROS Default File
-from ros_python_service.srv import SrvTutorial  # SrvTutorial Service File Header (Automatically created after build)
+from ros_tutorials_service.srv import SrvTutorial  # SrvTutorial Service File Header (Automatically created after build)
 import sys
 
 def request_service(x, y):
