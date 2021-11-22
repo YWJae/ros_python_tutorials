@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy					# ROS Default File
-from ros_python_topic.msg import MsgTutorial
+from ros_tutorials_topic.msg import MsgTutorial
 
 def msgCallback(msg):
     rospy.loginfo("recieve msg = %d", msg.stamp.secs);   # Prints the 'stamp.sec' message
