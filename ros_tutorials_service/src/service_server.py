@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy
-from ros_python_service.srv import SrvTutorial, SrvTutorialResponse # Created Path:~/catkin_ws/devel/include/ros_python_service/
+from ros_tutorials_service.srv import SrvTutorial, SrvTutorialResponse # Created Path:~/catkin_ws/devel/include/ros_python_service/
 
 
 # The below process is performed when there is a service request
