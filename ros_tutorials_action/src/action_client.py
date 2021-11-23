@@ -6,7 +6,7 @@ import actionlib
 
 # Brings in the messages used by the fibonacci action, including the
 # goal message and the result message.
-from ros_python_action.msg import FibonacciAction, FibonacciGoal
+from ros_tutorials_action.msg import FibonacciAction, FibonacciGoal
 
 def fibonacci_client():
     # Creates the SimpleActionClient, passing the type of the action
