@@ -4,7 +4,7 @@ import rospy
 
 import actionlib
 
-from actionlib_tutorials.msg import FibonacciAction, FibonacciFeedback, FibonacciResult
+from ros_tutorials_action.msg import FibonacciAction, FibonacciFeedback, FibonacciResult
 
 class Fibonacci(object):
     # create messages that are used to publish feedback/result
